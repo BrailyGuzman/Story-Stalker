@@ -1,6 +1,5 @@
 import os, stdiomask, platform, time
 from random import randint
-from colorama import Fore, init
 
 try:
     import requests
