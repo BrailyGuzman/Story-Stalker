@@ -29,7 +29,7 @@ session = requests.Session()
 username = input(f"[{Fore.LIGHTRED_EX}+{Fore.RESET}] Username: ")
 password = stdiomask.getpass(prompt=f"[{Fore.LIGHTRED_EX}+{Fore.RESET}] Password: ", mask='*')
 
-url = "https://www.instagram.com/accounts/login/ajax/"
+url = "https://i.instagram.com/api/v1/web/accounts/login/ajax/"
 
 headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
